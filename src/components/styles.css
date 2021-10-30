@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* page heading phone verification */
+.name {
+  margin: 10px;
+}
+/* otp message enter the otp you received on your mobile */
+.otpmsg {
+  margin-bottom: 20px;
+  color: grey;
+}
+/* number or otp varification */
+.verification {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  color: darkblue;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* change number componenet style */
+.changeNumber {
+  margin: 5%;
+  background-color: lightgrey;
+  border: 1px solid black;
+  padding: 0px 10px 20px 10px;
+  width: 90%;
+}
+/* mobile number lable style */
+.mobileNumber {
+  font-size: 18px;
+}
+/* get otp button style */
+.getotp {
+  padding: 5px 20px 5px 20px;
+  background-color: #81b29a;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+}
+/* mobile number input field style */
+.mobile_input {
+  width: 45%;
+  height: 25px;
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 1%;
+}
+/* get-otp button hover style */
+.mobile_input::hover {
+  border: 1px solid green;
+}
+/* horizontal line style */
+hr {
+  margin: 50px 0px 50px 0px;
+}
+
+/* phone verification page style main div/card */
+.creditcard {
+  margin: auto;
+  background-color: white;
+  margin-top: 5%;
+  width: 75%;
+  height: auto;
+  padding: 10px;
+  /* border-radius: 15px; */
+  border: 1px solid black;
+}
+
+/* otp input filed  style*/
+.box {
+  text-align: center;
+  border: none;
+  outline: none;
+  margin: 5px;
+  padding: 5px;
+  width: 45px;
+  height: 13px;
+  font-size: 20px;
+  border-bottom: 3px solid grey;
+}
+/* verify pnone number button style */
+.submit {
+  background-color: green;
+  outline: none;
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  width: auto;
+  opacity: 0.3;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  border: 0.5px solid silver;
+  cursor: pointer;
+}
+/* button style */
+.submit:hover {
+  background-color: green;
+}
+/*  */
+
+.disp {
+  margin: 10%;
+}
+
+/* welcome page style */
+.welcome {
+  border: 1px solid black;
+  width: 100%;
+  height: 500px;
+  background-color: #212529;
+}
+
+.welcomemsg {
+  margin-top: 20%;
+  align-items: center;
+  text-align: center;
+}
+.welcome div h1 {
+  font-size: 50px;
+  color: lightgrey;
+}
